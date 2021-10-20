@@ -1,0 +1,54 @@
+html, main, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  min-width: 1920px !important;
+}
+
+.border-image {
+  border: 1px solid #dbdbdb;
+  border-radius: 20px;
+}
+
+.row {
+  width: auto;
+}
+.bold-text {
+  font-weight: bold;
+}
+
+.bold-text-1 {
+  font-weight: 600;
+}
+
+.bold-text p {
+  font-weight: bold;
+}
+
+.btn {
+  width: 400px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.screenshot img {
+  vertical-align: middle;
+}
+
+.screenshot img:hover {
+  transform: scale(1.5);
+}
+
+.screenshot {
+  padding: 5px;
+}
+
+.box img {
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
